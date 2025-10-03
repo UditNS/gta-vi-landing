@@ -7,6 +7,8 @@ import Video from './sections/Video'
 import JasonContent from './sections/JasonContent'
 import LuciaVideo from './sections/LuciaVideo'
 import LuciaContent from './sections/LuciaContent'
+import PostCard from './sections/PostCard'
+import FinalVideo from './sections/FinalVideo'
 gsap.registerPlugin(ScrollTrigger)
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
       <JasonContent />
       <LuciaVideo />
       <LuciaContent />
+      <PostCard />
+      <FinalVideo />
     </>
   )
 }
