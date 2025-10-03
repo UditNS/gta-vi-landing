@@ -4,6 +4,8 @@ import gsap from 'gsap'
 import Hero from './sections/Hero'
 import Nav from './sections/Nav'
 import Video from './sections/Video'
+import JasonContent from './sections/JasonContent'
+import LuciaVideo from './sections/LuciaVideo'
 gsap.registerPlugin(ScrollTrigger)
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
       <Nav />
       <Hero />
       <Video />
+      <JasonContent />
+      <LuciaVideo />
     </>
   )
 }
